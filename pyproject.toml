@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixelcard"
+version = "1.0.0"
+description = "Пиксельный дашборд метрик GitHub на tkinter, только stdlib"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+pixelcard = "pixelcard.app:main"
+
+[tool.setuptools]
+packages = ["pixelcard"]
